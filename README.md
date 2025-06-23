@@ -66,6 +66,7 @@ After training, the model is saved in Colab using:
 
 ```python
 torch.save(model.state_dict(), 'model.pt')
+```
 
 ---
 
