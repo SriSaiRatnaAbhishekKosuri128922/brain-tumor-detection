@@ -49,6 +49,22 @@ This project uses deep learning to classify brain MRI images into four categorie
 
 ---
 
+## 🧪 Real-Time Image Prediction (User Input)
+
+This project allows you to test your **own MRI image**:
+
+- Upload any MRI image (from Google or a Kaggle dataset)
+- Copy the image path
+- Paste it into the input prompt in the notebook
+- The model will classify the image and give color-coded output:
+
+✅ **Green = Healthy**  
+❌ **Red = Tumor type (Glioma, Meningioma, or Pituitary)**
+
+> This works even on external images from different datasets.
+
+---
+
 ## 📷 Sample Outputs
 
 ### 📊 Confusion Matrix
@@ -77,8 +93,9 @@ torch.save(model.state_dict(), 'model.pt')
 
 ## ✅ Results
 
-- 📈 Achieved high accuracy on validation and test sets  
+- 📈 Achieved Achieved 97.06% accuracy on test data 
 - 🔬 Demonstrated feasibility of AI-assisted diagnosis in medical imaging
+- 🔁 Generalizable to other 4-class brain tumor MRI datasets
 
 ---
 
