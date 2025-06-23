@@ -1,3 +1,8 @@
+![Made with Python](https://img.shields.io/badge/Made%20with-Python-blue)
+![Built in Colab](https://img.shields.io/badge/Built%20in-Google%20Colab-orange)
+![Model Accuracy](https://img.shields.io/badge/ResNet50%20Accuracy-97.06%25-brightgreen)
+[![Kaggle Dataset](https://img.shields.io/badge/Dataset-Kaggle-blueviolet)](https://www.kaggle.com/datasets/rm1000/brain-tumor-mri-scans)
+
 # 🧠 Brain Tumor Detection Based on Deep Learning Approaches and MRI
 
 This project uses deep learning to classify brain MRI images into four categories — **glioma**, **meningioma**, **pituitary**, and **healthy** — using **PyTorch** and **ResNet50**.
